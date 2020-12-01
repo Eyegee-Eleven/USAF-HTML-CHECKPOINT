@@ -33,18 +33,7 @@ nav{
   }
   #movieInfo{
     display: flex;
-    flex-direction: row;
-  }
-  .nav  button {
-    display: flex;
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+    justify-content: right;
   }
 
   .nav input[type=text] {
@@ -61,4 +50,16 @@ nav{
     bottom: 0;
     width: 100%;
   }
-  
+
+  .nav-btn{
+    border: 1px solid orange;
+    background-color:#555555;
+    color: orange;
+    display: flex;
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    cursor: pointer;
+}
