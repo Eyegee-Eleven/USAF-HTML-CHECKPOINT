@@ -32,16 +32,18 @@
         </nav>
 
         <article id='movie'>
-            <container id="container">
+            
             <div id='movie image'>
                 <img src="../Images/2.jpg" alt="movie poster" style="widows: 300px;;height:300px;">
-                <form>
-                    <label>Leave a comment</label>
-                    <input type="text">
-                    <button type="submit">Submit</button>
+                <form id="comment-form">
+                    <label id="comment-text">Leave a comment: </label>
+                    <input id="comment-input" type="text">
+                    <button id='comment-btn' type="submit">Submit</button>
                 </form>
             </div>
-            <div id="movie info">
+        </article>
+        <article>
+            <div id="movie-info">
                 <h1>
                     Your Movie
                 </h1>
@@ -49,9 +51,8 @@
                 <h4>Category | Actor 1, Actor 2, Actor 3</h4>
                 <p>This is a great description of the movie you clicked on to read more about..</p>
             </div>
-        </container>
-         
         </article>
+        
 
         <footer>
             <nav>
