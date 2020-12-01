@@ -1,3 +1,15 @@
+
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+
 nav{
     background-color: grey ;
 }
@@ -21,10 +33,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  .searcher{
-      float: none;
-      text-align: right;
-  }
+
   .nav  button {
     display: flex;
     float: right;
